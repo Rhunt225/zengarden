@@ -8,8 +8,10 @@ html, body{
 body {
     font-family: helvetica, arial, sans-serif;
     color: #ec6a9d;
-    background-image: url("background.jpg");
-    background-size: contain;
+    background-image: url("background-v.jpg");
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .page-wrapper {
     background: rgba(255, 255, 255, 0.7);
@@ -20,7 +22,10 @@ body {
     }
 h1, h2, h3 {
     text-transform: uppercase;
+    text-shadow: 2px 1px 5px gray;
 }
 .summary {
   border-bottom: 3px solid sandybrown;
+  color: bisque;
+  font-weight: bold;
   }
