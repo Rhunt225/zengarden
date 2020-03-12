@@ -1,0 +1,26 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    }
+    * {
+    box-sizing: border-box;
+    }
+body {
+    font-family: helvetica, arial, sans-serif;
+    color: #ec6a9d;
+    background-image: url("background.jpg");
+    background-size: contain;
+}
+.page-wrapper {
+    background: rgba(255, 255, 255, 0.7);
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 32px;
+    }
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+.summary {
+  border-bottom: 3px solid sandybrown;
+  }
