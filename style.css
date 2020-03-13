@@ -7,25 +7,33 @@ html, body{
     }
 body {
     font-family: helvetica, arial, sans-serif;
-    color: #ec6a9d;
-    background-image: url("background-v.jpg");
+    font-weight: bold;
+    color: #a81088;
+    background-image: url("background-7.jpg");
     background-repeat: repeat-y;
     background-attachment: fixed;
     background-size: cover;
 }
 .page-wrapper {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.9);
     width: 75%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 16px 32px;
     }
-h1, h2, h3 {
+h2, h3 {
     text-transform: uppercase;
     text-shadow: 2px 1px 5px gray;
+    color: #0abeb8;
 }
-.summary {
-  border-bottom: 3px solid sandybrown;
-  color: bisque;
-  font-weight: bold;
-  }
+h1{
+    text-transform: uppercase;
+    text-shadow: 3px 2px 6px gray; 
+    color: #006d9d;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+.summary, .preamble, .explanation, .participation, .benefits, .requirements {
+  border-bottom: 3px solid #dfde13;
+    }
